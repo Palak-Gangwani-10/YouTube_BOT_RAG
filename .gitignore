@@ -10,3 +10,4 @@ __pycache__/
 
 # Ignore OS/mac cache files
 .DS_Store
+.env
