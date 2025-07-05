@@ -4,3 +4,4 @@ langchain-cohere
 faiss-cpu
 tiktoken
 python-dotenv
+langchain-core
