@@ -14,6 +14,6 @@ try:
     retriever = get_retriever(vector_store, top_k=4, search_type="similarity")
     prompt = get_transcript_qa_prompt()
     response = generate_answer(retriever, prompt, question)
-    print(response)
+    print(response.content)
 except Exception as e:
     print(f"Error: {e}")

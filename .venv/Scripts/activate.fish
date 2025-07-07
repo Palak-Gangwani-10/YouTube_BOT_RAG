@@ -33,7 +33,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV 'C:\Users\lenovo\Desktop\Youtube_BOT\.venv'
+set -gx VIRTUAL_ENV 'C:\Users\lenovo\Desktop\YouTube_Bot_RAG\YouTube_BOT_RAG\.venv'
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/"Scripts $PATH

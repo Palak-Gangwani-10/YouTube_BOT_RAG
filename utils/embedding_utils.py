@@ -34,6 +34,9 @@ def create_vector_store_from_chunks(chunks, model_name="embed-english-v3.0"):
     Returns:
         FAISS: A LangChain-compatible FAISS vector store
     """
-    embeddings = CohereEmbeddings(cohere_api_key=COHERE_API_KEY, model=model_name)
+    embeddings = CohereEmbeddings(
+        cohere_api_key=COHERE_API_KEY,
+        model=model_name
+    )
     vector_store = FAISS.from_documents(chunks, embeddings)
     return vector_store
