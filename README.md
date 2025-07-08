@@ -23,7 +23,7 @@ A powerful YouTube content analysis bot powered by RAG (Retrieval-Augmented Gene
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/YouTube_Bot_RAG.git
+git clone https://github.com/Palak-Gangwani-10/YouTube_Bot_RAG.git
 cd YouTube_Bot_RAG
 ```
 
@@ -93,11 +93,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Thanks to all contributors
 - Inspired by modern RAG implementations
 - Built with powerful open-source tools
-
-## 📞 Contact
-
-Your Name - [@yourtwitter](https://twitter.com/yourtwitter)
-Project Link: [https://github.com/yourusername/YouTube_Bot_RAG](https://github.com/yourusername/YouTube_Bot_RAG)
 
 ## 🔮 Future Improvements
 
